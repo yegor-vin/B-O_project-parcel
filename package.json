@@ -1,0 +1,22 @@
+{
+  "name": "b-o_project-parcel",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yegor-vin/B-O_project-parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yegor-vin/B-O_project-parcel/issues"
+  },
+  "homepage": "https://github.com/yegor-vin/B-O_project-parcel#readme",
+  "description": "",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  }
+}
