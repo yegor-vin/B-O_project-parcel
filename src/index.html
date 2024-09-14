@@ -42,120 +42,255 @@
             </div>
           </div>
           <div class="header__bottom">
-            <h1 class="header__title">Your senses. <br/>
-                Set free.</h1>
+            <h1 class="header__title">
+              Your senses. <br />
+              Set free.
+            </h1>
           </div>
         </div>
       </div>
     </header>
 
     <aside class="nav-page" id="nav-page">
+      <div class="container">
+        <div class="nav-page__content">
+          <div class="top-actions">
+            <a class="logo" href="index.html">
+              <img src="./images/logo.png" class="logo__image" />
+            </a>
+            <a class="nav-page__close-button close-button" href="#">
+              <svg class="close-button__icon">
+                <use href="./images/icons/sprite.svg#cross"></use>
+              </svg>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#recommended" class="nav__link">Products</a>
+              </li>
+              <li class="nav__item">
+                <a href="#categories" class="nav__link">Store</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Login</a>
+              </li>
+              <li class="nav__item">
+                <a href="#benefits" class="nav__link">Cart(0)</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <a
+              href="tel:+123455555"
+              class="contacts__item contacts__item--number"
+              >+1 234 555-55-55</a
+            >
+            <a href="tel:+123455555" class="contacts__item contacts__item--call"
+              >call to order</a
+            >
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="section recommended" id="recommended">
         <div class="container">
-          <div class="nav-page__content">
-            <div class="top-actions">
-              <a class="logo" href="index.html">
-                <img src="./images/logo.png" class="logo__image" />
-              </a>
-              <a class="nav-page__close-button close-button" href="#">
-                <svg class="close-button__icon">
-                  <use href="./images/icons/sprite.svg#cross"></use>
-                </svg>
-              </a>
-            </div>
-            <nav class="nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="#recommended" class="nav__link">Products</a>
+          <h2 class="recommended__title">Recommended</h2>
+          <ul class="recommended__list">
+            <li class="recommended__item product">
+              <img
+                class="product__image"
+                src="./images//beosound.jpg"
+                alt="Speaker"
+              />
+
+              <div class="product__content">
+                <div class="product__text-content">
+                  <h3 class="product__title">BEOSOUND A5</h3>
+                  <p class="product__description">
+                    Huge sound anywhere – in the home or outdoors. Beosound A5
+                    is a Wi-Fi and Bluetooth speaker with long-lasting battery
+                    and wireless charging built in.
+                  </p>
+                </div>
+                <p class="product__price">$ 1299.00</p>
+              </div>
+            </li>
+            <li class="recommended__item product">
+              <img
+                class="product__image"
+                src="./images/beoplay.jpg"
+                __
+                alt="Speaker"
+              />
+
+              <div class="product__content">
+                <div class="product__text-content">
+                  <h3 class="product__title">BEOPLAY HX</h3>
+                  <p class="product__description">
+                    Wireless noise-cancelling headphones. Listen in comfort
+                    whether you're on a call, working from home or taking a
+                    moment for yourself.
+                  </p>
+                </div>
+                <p class="product__price">$ 499.00</p>
+              </div>
+            </li>
+            <li class="recommended__item product">
+              <img
+                class="product__image"
+                src="./images/beosound-theatre.jpg"
+                __
+                alt="Speaker"
+              />
+
+              <div class="product__content">
+                <div class="product__text-content">
+                  <h3 class="product__title">BEOSOUND THEATRE</h3>
+                  <p class="product__description">
+                    Four patent-pending acoustic innovations in one sleek
+                    soundbar envelop you in sound from every angle. Made to fit
+                    any TV, and last for generations.
+                  </p>
+                </div>
+
+                <p class="product__price">$ 3199.00</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section categories" id="categories">
+        <div class="container">
+          <h2 class="categories__title">
+            Sound. Vision. <br />
+            It’s your pick.
+          </h2>
+
+          <ul class="categories__list">
+            <li class="categories__item category">
+              <div class="category__image-container grid">
+                <img
+                  src="./images/speaker-1.jpg"
+                  alt="circle speaker"
+                  class="category__image grid__item"
+                />
+
+                <img
+                  src="./images/speaker-2.jpg"
+                  alt="cone speaker"
+                  class="category__image grid__item"
+                />
+              </div>
+              <h3 class="category__text">Portable speakers</h3>
+            </li>
+            <li class="categories__item category">
+              <div class="category__image-container grid">
+                <img
+                  src="./images/earphones-1.jpg"
+                  alt="Earphones black"
+                  class="category__image grid__item"
+                />
+
+                <img
+                  src="./images/earphones-2.jpg"
+                  alt="Earphones grey"
+                  class="category__image grid__item"
+                />
+              </div>
+              <h3 class="category__text">Earphones</h3>
+            </li>
+            <li class="categories__item category">
+              <div class="category__image-container grid">
+                <img
+                  src="./images/smart-speaker-1.jpg"
+                  alt="Smart speaker with white hand"
+                  class="category__image grid__item"
+                />
+
+                <img
+                  src="./images/smart-speaker-2.jpg"
+                  alt="Smart speaker black"
+                  class="category__image grid__item"
+                />
+              </div>
+              <h3 class="category__text">Smart Home</h3>
+            </li>
+          </ul>
+
+          <button class="categories__button" type="button">View all</button>
+        </div>
+      </section>
+
+      <section class="divider"></section>
+
+      <section class="section about-us" id="about-us">
+        <div class="container">
+          <div class="grid">
+            <h2 class="about-us__title">Timeless, for 50 years and counting</h2>
+            <p class="about-us__text">
+              Bang & Olufsen is expanding its Recreated Classics Program with the launch of Beosystems – a limited edition music system that transcends time by bridging the gap between one of our iconic designs from 1972 and today’s cutting-edge digital technology.
+            </p>
+          </div>
+        </div>
+      </section>
+            
+      <section class="section contact" id="contact">
+        <div class="container">
+          <h2 class="contact__title">Contact us</h2>
+          <div class="grid">
+            <form class="form" action="#">
+                <input
+                  class="form__input"
+                  type="text"
+                  name="text"
+                  id="name"
+                  required
+                  placeholder="Name"
+                />
+                <input
+                  class="form__input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="Email"
+                />
+                <textarea
+                  class="form__message"
+                  name="message"
+                  id="message"
+                  placeholder="Message"
+                ></textarea>
+              <button class="form__button" type="button">Send</button>
+            </form>
+
+            <div class="contact__info info">
+              <ul class="info__list">
+                <li class="info__item">
+                  <h4 class="info__title">Phone</h4>
+                  <p class="info__text">+ 1 234 5555-55-55</p>
                 </li>
-                <li class="nav__item">
-                  <a href="#categories" class="nav__link">Store</a>
+                <li class="info__item">
+                  <h4 class="info__title">Email</h4>
+                  <p class="info__text">hello@bang&olufsen.com</p>
                 </li>
-                <li class="nav__item">
-                  <a href="#contact" class="nav__link">Login</a>
-                </li>
-                <li class="nav__item">
-                  <a href="#benefits" class="nav__link">Cart(0)</a>
+                <li class="info__item">
+                  <h4 class="info__title">Address</h4>
+                  <p class="info__text">
+                    400 first ave.<br />
+                    suite 700<br />
+                    Minneapolis, MN 55401
+                  </p>
                 </li>
               </ul>
-            </nav>
-            <div class="contacts">
-              <a
-                href="tel:+123455555"
-                class="contacts__item contacts__item--number"
-                >+1 234 555-55-55</a
-              >
-              <a
-                href="tel:+123455555"
-                class="contacts__item contacts__item--call"
-                >call to order</a
-              >
             </div>
           </div>
         </div>
-      </aside>
-
-    <main class="main">
-        <section class="section recommended">
-            <div class="container">
-              <h2 class="recommended__title">Recommended</h2>
-              <ul class="recommended__list">
-                <li class="recommended__item product">
-                  <img
-                    class="product__image"
-                    src="./images//beosound.jpg"
-                    alt="Speaker"
-                  />
-    
-                  <div class="product__content">
-                    <div class="product__text-content">
-                      <h3 class="product__title">BEOSOUND A5</h3>
-                      <p class="product__description">
-                        Huge sound anywhere – in the home or outdoors. Beosound A5 is a Wi-Fi and Bluetooth speaker with long-lasting battery and wireless charging built in.
-                      </p>
-                    </div>
-                    <p class="product__price">$ 1299.00</p>
-                  </div>
-                </li>
-                <li class="recommended__item product">
-                  <img
-                    class="product__image"
-                    src="./images/beoplay.jpg"
-                    __
-                    alt="Speaker"
-                  />
-    
-                  <div class="product__content">
-                    <div class="product__text-content">
-                      <h3 class="product__title">BEOPLAY HX</h3>
-                      <p class="product__description">
-                        Wireless noise-cancelling headphones. Listen in comfort whether you're on a call, working from home or taking a moment for yourself.
-                      </p>
-                    </div>
-                    <p class="product__price">$ 499.00</p>
-                  </div>
-                </li>
-                <li class="recommended__item product">
-                  <img
-                    class="product__image"
-                    src="./images/beosound-theatre.jpg"
-                    __
-                    alt="Speaker"
-                  />
-    
-                  <div class="product__content">
-                    <div class="product__text-content">
-                      <h3 class="product__title">BEOSOUND THEATRE</h3>
-                      <p class="product__description">
-                        Four patent-pending acoustic innovations in one sleek soundbar envelop you in sound from every angle. Made to fit any TV, and last for generations.
-                      </p>
-                    </div>
-    
-                    <p class="product__price">$ 3199.00</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
+      </section>
     </main>
   </body>
 </html>

@@ -1,0 +1,76 @@
+.categories {
+  padding: 0 0 96px;
+
+  @include onTablet {
+    padding: 0 0 120px;
+  }
+
+  &__title {
+    margin-bottom: 47px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: $color--black;
+
+    @include onTablet {
+      margin-bottom: 56px;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    @include onDesktop {
+      font-size: 48px;
+      line-height: 48px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 0 40px;
+
+    @include onTablet {
+      gap: 56px;
+      padding: 0 0 56px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__button {
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 56px;
+    width: 100%;
+    background-color: #f98921;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #fff;
+
+    transition: all 0.3s linear;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color--black;
+    }
+
+    &:focus {
+      background-color: #010810;
+    
+    }
+
+    @include onDesktop {
+      width: 324px;
+    }
+  }
+}

@@ -1,14 +1,34 @@
 @import "utils/reset";
 @import "utils/normalize";
+@import "utils/vars";
 @import "utils/mixins";
 
 
 
 
 @import "blocks/container";
+@import "blocks/grid";
 @import "blocks/header";
 @import "blocks/top-actions";
 @import "blocks/logo";
 @import "blocks/menu";
+@import "blocks/nav-page";
+@import "blocks/nav";
+@import "blocks/contacts";
+@import "blocks/close-button";
+
 @import "blocks/recommended";
 @import "blocks/product";
+@import "blocks/categories";
+@import "blocks/category";
+@import "blocks/divider";
+@import "blocks/about-us";
+@import "blocks/contact";
+@import "blocks/form";
+@import "blocks/info";
+
+
+
+
+
+

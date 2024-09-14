@@ -1,0 +1,29 @@
+.contact {
+  padding: 64px 0;
+
+  @include onTablet {
+    padding: 120px 0;
+  }
+
+  &__title {
+    margin: 0 0 48px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+
+    @include onTablet {
+      margin: 0 0 56px;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    @include onDesktop {
+      font-size: 48px;
+      line-height: 48px;
+    }
+  }
+
+  &__info {
+    grid-column: 1 / -1;
+  }
+}
